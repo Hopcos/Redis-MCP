@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Let the test project create RedisToolContext/RedisEnvironment instances. -->
+    <InternalsVisibleTo Include="RedisMcpServer.Tests" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RedisMcpServer.Api/RedisMcpServer.Api.csproj" />
+    <Project Path="src/RedisMcpServer.Core/RedisMcpServer.Core.csproj" />
+    <Project Path="src/RedisMcpServer.Tools/RedisMcpServer.Tools.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RedisMcpServer.Tests/RedisMcpServer.Tests.csproj" />
+  </Folder>
+</Solution>
