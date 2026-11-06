@@ -1,4 +1,8 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+    <File Path="README.zh.md" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/RedisMcpServer.Api/RedisMcpServer.Api.csproj" />
     <Project Path="src/RedisMcpServer.Core/RedisMcpServer.Core.csproj" />
